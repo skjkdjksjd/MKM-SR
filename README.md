@@ -25,4 +25,4 @@ optional arguments:
 --dataset DATASET_PATH dataset name: Demo/Jdata/KKbox
 ```
 
-Then you can run the file ``main.py``` to train the model.
+Then you can run the file ```main.py``` to train the model.

@@ -26,3 +26,24 @@ optional arguments:
 ```
 
 Then you can run the file ```main.py``` to train the model.
+```
+usage: main.py 
+optional arguments:
+  --batchSize BATCHSIZE
+                        input batch size
+  --hiddenSize HIDDENSIZE
+                        hidden state size
+  --epoch EPOCH         the number of epochs to train for
+  --lr LR               learning rate
+  --lr_dc LR_DC         learning rate decay rate
+  --lr_dc_step LR_DC_STEP
+                        the number of epochs after which the learning rate
+                        decay
+  --l2 L2               l2 penalty
+  --step STEP           gnn propogation steps
+  --patience PATIENCE   the number of epoch to wait before early stop
+  --nonhybrid           only use the global preference to predict
+  --validation          validation
+  --valid_portion VALID_PORTION
+                        split the portion of training set as validation set
+```
